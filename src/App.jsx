@@ -10,8 +10,8 @@ const App = () => {
         <Sidebar />
         <Display />
       </div>
-
       <Player />
+      <audio preload="auto"></audio>
     </div>
   );
 };
